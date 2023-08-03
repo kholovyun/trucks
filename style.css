@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 1em;
+    
+}
+body{
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.contol__panell{
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+#truck__info{
+    width: 100%;
+    margin-top: 5em;
+}
+#truck__info__table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    font-size: 17px;
+    margin-bottom: 1em;
+}
+th, td, tr{
+    border: 1px solid black;
+    line-height: 3em;
+}
+#truks__status,
+#single__truk__status{
+    background: url('./images/truckbtn.png');
+    background-size: cover;
+    width: 450px;
+    height: 200px;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+#truks__status:hover {
+    border-radius: 10px;
+    background-color: rgb(54, 240, 141);
+}
+#single__truk__status:hover{
+    border-radius: 10px;
+    background-color: rgb(54, 240, 141);
+}
+.all__status__text,
+.id__status__text{
+    position: absolute;
+    font-size: 30px;
+    width: 47%;
+    top: 20%;
+    right: 10%;
+    font-weight: 800;
+    color: rgb(14, 105, 86);
+}
+.contol__panell{
+    display: flex;
+    flex-direction: row;
+}
+table{
+    background-color: rgba(0, 0, 0, 0.716);
+    color: white;
+}
+#truck__info > button {
+    margin: 0.5em;
+}
+.truck__control__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2em;
+    flex-direction: column;
+}
+.truck__control__buttons > button {
+    margin: 0.5em;
+    border: none;
+    padding: 0.2em;
+    border-radius: 10px;
+    min-width: 100px;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+}
+.truck__control__buttons > button:hover{
+    background-color: white;
+    color: black;
+    
+}
+.truck__control__buttons > button:first-child{
+    color: red;
+    background-color: white;
+    padding: 0.2em;
+    min-width: 30px;
+    align-self: flex-end;
+}
+.menu{
+    transition: all 0.5s ease-in-out;
+}
+.fa-truck-moving,
+.fa-id-card,
+.fa-screwdriver-wrench,
+.fa-house{
+    color: white;
+    margin-left: 0.3em;
+}
+#mark__input,
+#id__input{
+    height: 30px;
+    border-radius: 5px;
+}
+#add__btn,
+#remove__btn{
+    padding: 0.5em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.379);
+    color: white;
+    border-color: aliceblue;
+}
+.remove__block{
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    
+}

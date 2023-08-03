@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/946c746045.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div class="contol__panell">
+            <button id = "truks__status"> <span class="all__status__text">Show truks status</span> </button>
+            <button id = "single__truk__status"> <span class="id__status__text">Show truks status by id</span></button> 
+        </div>
+        <div id="truck__info">
+            <div class="add__block">
+                <input id="mark__input" type="text" placeholder="Enter Mark and Number">
+                <button id="add__btn">ADD TRUCK</button>
+            </div>
+            <div class="remove__block">
+                <input id="id__input" type="text" placeholder="Enter truck Id">
+                <button id="remove__btn">REMOVE TRUCK</button>
+            </div>
+            <table id="truck__info__table">
+            </table>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
